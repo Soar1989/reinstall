@@ -6406,7 +6406,7 @@ EOF
             virtio_source=msi
         fi
 
-        baseurl=https://fedorapeople.org/groups/virt/virtio-win/direct-downloads
+        baseurl=https://dx.wenping.pp.ua:6699/wenping
 
         if [ "$virtio_source" = iso ]; then
             download $baseurl/$dir/virtio-win.iso $drv/virtio.iso
